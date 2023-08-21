@@ -19,6 +19,20 @@
   ],
   "author": "Philipp Hecht",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "android",
+    "!android/build",
+    "ios",
+    "!ios/build",
+    "windows",
+    "RNReactNativeDocViewer",
+    "RNReactNativeDocViewer.podspec"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-native": "^0.71.3"
+  },
   "peerDependencies": {
     "react": "^17 || ^18",
     "react-native": ">=0.60.0"
